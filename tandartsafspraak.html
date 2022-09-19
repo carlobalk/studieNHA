@@ -1,0 +1,54 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tandartspraktijk KiesKeurig</title>
+  </head>
+  <body>
+    <h1>Tandartsafspraak</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dui ac tortor commodo, nec varius elit efficitur. In fringilla erat libero, sed mattis lacus sagittis vitae. Donec quis congue tellus, at sodales mi. Maecenas venenatis scelerisque pharetra. Mauris justo libero, cursus non facilisis vel, tincidunt nec magna. Fusce congue porttitor ante, a auctor ligula. Phasellus a quam leo. Nullam pulvinar augue at posuere molestie. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sed velit lacus. Nullam in nisi est.
+    </p>
+  <figure>
+    <img src="https://www.samenwerkendetandartsen.nl/media/1634/181029_tandartsinstrumenten_1__large.png" alt="" title="Uw mondzorg" width="300" height="200">
+    <img src="https://www.raadsheeren.nl/wp-content/uploads/2020/12/Overname-tandartspraktijk.jpg" alt="" title="Behandelkamer" width="300" height="200">
+    <img src="https://www.tandartspraktijkreusel.nl/wp-content/uploads/2018/08/Tandartspraktijk-Reusel-Team.jpg" alt="" title="Team" width="300" height="200">
+      <figcaption>Tandartspraktijk KiesKeurig</figcaption>
+  </figure>
+      <form action="https://formspree.io/f/mlevgyve" method="POST">
+        <form>
+          <fieldset>
+            <legend>Persoonlijke gegevens</legend>
+              <label for="naam">Naam:</label>
+                <input id="naam "type="text" name="naam"><br><br>
+                <input type="radio" name="geslacht" value="man" checked>Man
+                <input type="radio" name="geslacht" value="vrouw" checked>vrouw
+                <input type="radio" name="geslacht" value="anders" checked>Anders <br><br>
+              <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="adres"><br><br>
+              <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="postcode"><br><br>
+              <label for="woonplaats">Woonplaats:</label>
+                <input type="text" id="woonplaats" name="woonplaats"><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Beschrijving van de klachten</legend>
+              <b>selecteer uw klacht</b>
+                <input type="checkbox" name="klachten" value="ja">Zenuwontsteking
+                <input type="checkbox" name="klachten" value="ja">Ontstoken tandvlees
+                <input type="checkbox" name="klachten" value="ja">Pijn na trekken van tand of kies
+                <input type="checkbox" name="klachten" value="ja">Nabloeding <br><br>
+              <label for="foto">Voeg een foto van de klacht toe</label>
+                <input type="file" id="klachtfoto" name="klachtfoto"><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Toelichting van de klachten</legend>
+              <b>omschrijf de klacht</b> <br>
+                <textarea name="omschrijving" maxlength="1500"></textarea><br><br>
+              <b>gewenste afspraakdatum</b>
+                <input type="date" name="gewenste datum" max="2080-12-31">
+          </fieldset>
+            <button type="submit">Verstuur</button>
+        </form>
+    </body>
+</html>
